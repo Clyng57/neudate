@@ -1,0 +1,41 @@
+{
+  "name": "neudate",
+  "version": "1.0.0",
+  "description": "A new date constructor that extends the built-in Date object.",
+  "type": "module",
+  "author": "Cal Young",
+  "repository": {
+    "url": "https://github.com/Clyng57/neudate"
+  },
+  "keywords": [
+    "date",
+    "time",
+    "byteview",
+    "browser",
+    "nodejs",
+    "javascript",
+    "module",
+    "node",
+    "es6"
+  ],
+  "main": "./index.js",
+  "types": "./types/index.d.ts",
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.17.0",
+    "standard": "^16.0.4"
+  },
+  "dependencies": {
+    "byteview": "^1.0.6"
+  },
+  "babel": {
+    "targets": {
+      "node": "16"
+    }
+  },
+  "standard": {
+    "parser": "@babel/eslint-parser",
+    "ignore": [
+      "/types"
+    ]
+  }
+}
